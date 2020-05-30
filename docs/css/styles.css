@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #202020;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #202020;
   text-decoration: underline;
 }
 
@@ -10224,6 +10224,7 @@ header.masthead h1 {
 } 
 
 .jumbotron{
+  width:1510px;
   margin:5px 5px 0px 5px;
   border-radius:5px;
   background: linear-gradient(
@@ -10231,6 +10232,16 @@ header.masthead h1 {
   rgba(125, 250, 250, 0.45)
 ),
 url(https://2.bp.blogspot.com/-_5NtjPgmpr4/UrmX5OizlMI/AAAAAAAAAPU/SlgVSCOoHL0/s1600/wallpaper-1948122.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:white !important;
+height:570px;
+}
+
+.jumbotron-special{
+  margin:5px 5px 0px 5px;
+  border-radius:5px;
+  background: dark;
 background-repeat: no-repeat;
 background-attachment: fixed;
 color:white !important;
@@ -10286,3 +10297,13 @@ height:600px;
   margin-right: auto;
   width: 30%;
 }
+
+.fa:active {
+  color : #f8f9fa;
+}
+
+img{
+  margin:5px 0px 5px 0px; 
+  border-radius:10px;"
+}
+  
